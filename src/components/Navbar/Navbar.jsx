@@ -7,7 +7,6 @@ import { useState } from 'react'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
-  // let handleToggle = () => setToggle(true)
   return (
     <nav className='app__navbar'>
 
