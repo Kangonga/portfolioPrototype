@@ -2,12 +2,11 @@ import React from 'react'
 import "./Work.scss"
 import images from "../../constants/images"
 import { motion } from 'framer-motion'
-import { useState,useEffect } from 'react'
-import { urlFor, client } from '../../client'
+// import { useState,useEffect } from 'react'
+// import { urlFor, client } from '../../client'
 import {AppWrap} from "../../wrapper"
 
 const Work = () => {
-  const [abouts, setabouts] = useState([])
 
   let abts = [
     {

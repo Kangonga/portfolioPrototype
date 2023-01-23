@@ -48,7 +48,7 @@ const Header = () => {
           transition={{duration:0.5,delayChildren:0.5}}
         >
 
-          <img src={images.myPic} alt="profile_bg" />
+          <img src={images.myPic} alt="profile_bg" className='app__header-myPic'/>
           <motion.img
             whileInView={{scale:[0,1]}}
             transition={{duration:1,ease:'easeInOut'}}
@@ -64,7 +64,7 @@ const Header = () => {
           whileInView={scaleVariants.whileInView}
           className="app__header-circles"
         >
-          {[images.flutter,images.redux,images.sass].map((circle,index)=>{
+          {[images.javascript,images.redux,images.sass].map((circle,index)=>{
           return   <div key={`${index}`}className='circle-cmp app__flex'>
             <img src={circle} alt="circle" />
           </div>  
